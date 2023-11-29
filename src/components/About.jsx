@@ -35,8 +35,9 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with over 5 years experience using TypeScript and JavaScript, as well as expertise in frameworks like React, Next.js, and Node.js. I'm a
-        quick learner and diligent collaborator, working closely with teammates to create efficient, scalable, and user-friendly solutions to real-world problems.
+        I'm a seasoned software developer with over four years of hands-on experience, specializing in frontend development using modern JavaScript frameworks (React & NextJS)
+        coupled with TypeScript. My passion lies in building scalable, efficient, and maintainable applications. I believe in shipping clean, testable code and find joy in solving
+        complex problems.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
