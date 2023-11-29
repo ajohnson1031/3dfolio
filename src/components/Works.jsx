@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
 
-import { github } from "../assets";
+import { creator, github } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, demo_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -27,11 +27,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
             </div>
           </div>
+
+          <div className="absolute inset-0 flex right-12 justify-end m-3 card-img_hover">
+            <div onClick={() => window.open(demo_link, "_blank")} className="green-pink-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+              <img src={creator} alt="demo" className="w-1/2 h-1/2 object-contain" />
+            </div>
+          </div>
         </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <div className="mt-5 cursor-pointer" onClick={() => window.open(demo_link, "_blank")}>
+          <h3 className="text-white font-bold text-[24px] select-none">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px] select-none">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">

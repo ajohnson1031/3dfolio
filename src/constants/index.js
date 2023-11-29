@@ -74,16 +74,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Sr. Software Engineer",
     company_name: "JPMorgan Chase",
     icon: chase,
     iconBg: "#FFF",
-    date: "2021 - Current",
+    date: "2020 - Current",
     points: [
-      "Developing and maintaining web applications using React.js, Redux and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Break down complex requirements into independent coding tasks and strategies",
+      "Develop high-quality, enterprise-scale web applications that operate across a secure and reliable infrastructure",
+      "Diagnose and fix bugs, investigate performance bottlenecks, and have a proactive approach to maintaining our systems and applications",
+      "Work cross-collaboratively with UX/UI, Product, Project Management & Executive teams efficiently on multiple priorities",
+      "Mentor junior developers through code pairing, PR reviews and CI/CD workflow debugging",
     ],
   },
   {
@@ -91,11 +92,12 @@ const experiences = [
     company_name: "Post Studios",
     icon: nypost,
     iconBg: "#CC0000",
-    date: "2019 - 2021",
+    date: "2018 - 2021",
     points: [
-      "Intensive usage of HTML, CSS & JavaScript in the creation of fully interactive, immersive advertising experiences.",
-      "Use of multiple APIs within creative templates for dynamic data retrieval.",
-      " Extend creative platform with custom code integration for a variety of desired effects.",
+      "Create visually appealing and user-friendly ad campaigns for both the website and mobile app, ensuring a seamless and consistent experience across different platforms",
+      "Utilize design best practices to optimize layouts, typography, colors, and imagery to enhance usability and overall aesthetics",
+      "Work independently to explore concepts from beginning to end",
+      "Collaborate, brainstorm, and strategize with internal teams for a wide range of deliverables",
     ],
   },
   {
@@ -105,10 +107,9 @@ const experiences = [
     iconBg: "#212121",
     date: "2014 - 2018",
     points: [
-      "Mentoring junior personnel including instructive sessions, code review and pairing assistance as needed.",
-      "Cross-team collaboration with developer and project manager teams in outer offices (Los Angeles, Singapore, London). ",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Ideation and integration of custom features with development and engineering support teams targeting multiple formats (Mobile, Desktop & OTT).",
+      "Develop creative strategies that drive action, set us apart and evolve based on performance and fresh insights",
+      "Track and communicate best-in-class and innovative creative approaches in the market to keep up-to-date with industry trends",
+      "Collaborate deeply with design, marketing strategy, product management, customer experience and other cross-company departments",
     ],
   },
 ];
@@ -157,6 +158,7 @@ const projects = [
     ],
     image: ai,
     source_code_link: "https://github.com/ajohnson1031/ai-companion",
+    demo_link: "https://ai-companion-three-mu.vercel.app/",
   },
   {
     name: "Discord Clone",
@@ -178,6 +180,7 @@ const projects = [
     ],
     image: discord,
     source_code_link: "https://github.com/ajohnson1031/discord-clone",
+    demo_link: "https://discord-clone-production-7965.up.railway.app/",
   },
 ];
 

@@ -37,6 +37,7 @@ import tripguide from "./tripguide.png";
 
 import ai from "./ai_companion.png";
 import discord from "./discord_clone.png";
+import spotify from "./spotify.jpg";
 
 export {
   ai,
@@ -67,6 +68,7 @@ export {
   reactjs,
   redux,
   shopify,
+  spotify,
   starbucks,
   tailwind,
   tesla,
